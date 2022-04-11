@@ -1,0 +1,435 @@
+  /* inicio de css*/
+
+ *{
+     margin: 0%;
+    padding: 0%;
+ }
+
+ /* tipo de funte de Google Fonts*/
+ /* solo del titulo principal*/
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+ /*funte de zona navegable*/
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+ /*funte para parrafos*/
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+ /*funte de encabezados h2*/
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+ 
+ 
+ /*root*/ /*en un futuro tendra root*/
+
+ 
+ /*fin de root*/
+
+ .elfondo{
+     background-image: url(imagenes/fondoprincipal.jpeg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     
+ }
+ /* grid */
+ 
+ .divprincipal{
+     min-height: 100vh;
+     
+     grid-template-areas: 
+     "header header header"
+     "sectionprin sectionprin sectionprin"
+     "articl1 articl1 aside1"
+     "zonanavideo zonanavideo  aside1"
+     "footerprin footerprin footerprin";
+     grid-template-rows: 200px 1fr 1fr 150px;
+     grid-template-columns:1fr auto auto 1fr ;
+ }
+ 
+ .headerprin{ grid-area:header;
+
+
+ }
+
+ .sectionprin{ grid-area: sectionprin;
+
+ }
+
+ .article1{ grid-area: article1;
+
+ }
+
+
+ .aside1{
+      grid-area: aside1;
+ }
+ 
+ .zonavideo{ grid-area: zonavideo;
+
+ }
+
+ 
+ .footerprin{ grid-area: footerprin;
+
+
+ }
+
+
+
+ /*Inicio de header*/
+.header{
+    grid-area: header;
+
+}
+
+
+.logo1{
+    display: flex;
+    justify-content:center ;
+}
+
+
+ .logo{
+     width: 10%;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     display: inline;
+     
+    
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*todo relacionado con el titulo principal*/
+h1 {
+    color: rgb(5, 18, 95);
+    border: 4px solid rgb(4, 22, 119);
+    display: inline;
+    background-color:rgb(183, 218, 235) ;
+    font-size:50px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+    
+ 
+
+  /*fin de h1*/
+  /*inicio de zona navegable*/
+
+ nav ul li a{
+    
+    color: rgb(251, 254, 255);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+  }
+    
+
+ .zonanav1{
+     
+     padding: 20px 0;
+     display: flex;
+     justify-content: center;
+     background-color: rgb(23, 23, 88);
+    
+ }
+ 
+ .zonanav2{
+            width: 70%;
+           display: flex;
+           justify-content:space-around ;
+           list-style: none;
+ }
+
+
+
+
+
+  /*fin de zona navegable*/
+
+
+  .Deportesfoto{
+        border-radius: 10%;        
+        margin: 80px 100px 100px 150px;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        height: 60%;
+       
+  }
+ 
+
+ /*fin de header*/
+
+ /*Inicio de zona de imagenes = article*/
+
+
+.article1{
+    display: grid;
+    display:flex ;
+
+    
+
+}
+
+.deportes2 .deportes3{
+          display: flex;
+          justify-content: space-around;
+
+}
+.deportesfoto2{
+    width: 40%;
+    height:100% ;
+    
+ }
+.deportesfoto3{
+    width: 20%;
+    
+    
+}
+
+        
+
+
+
+
+
+
+
+
+p{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(238, 226, 226);
+    
+}
+ 
+.aside{
+    border-radius: 9px;
+    width: 100%;
+    height: 100%;
+    margin-left: 700px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+.zonavideo{
+display: flex;
+justify-content: center ;
+margin-top: 40%;
+
+
+}
+
+.video1{
+   width: 40%;
+   display:flex ;
+   justify-content: center;
+   
+
+}
+
+
+
+
+
+/*termina zona de article*/
+  /*empieza el footer*/
+
+
+
+
+
+
+
+
+
+.redes{
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    
+    
+    
+
+}
+
+.iconos{
+    width: 4%;
+    
+}
+    
+
+
+
+.color{
+    color: rgb(22, 101, 104);
+    
+
+
+}
+
+
+
+.idioma{
+    position: sticky;
+    bottom: 0%;
+    left: 95%;
+    display: inline-block;
+    list-style: none;
+    
+
+}
+
+.idioma2{
+    text-decoration: none;
+    
+    
+
+    
+}
+
+
+
+
+ /*fin de footer*/
+
+/*fin de index*/
+.titulo2{
+    font-family:'Nunito', sans-serif; 
+    color: rgb(224, 220, 220) ;;
+    display: inline;
+    border: 4px solid rgb(9, 148, 167);
+    margin-bottom: 5;
+    background-color: rgb(25, 124, 124);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/*imagenes en deportes.html*/
+
+
+.deportesfoto{
+               display: flex;
+               flex-wrap: wrap;
+               align-items: flex-end;
+
+
+}
+
+
+.fotosdeportes{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px 0px;
+    
+}
+
+/*html.idiomas*/
+
+
+.volverinicio{
+    position: absolute;
+    bottom: 80%;
+    left: 90%;
+    display: inline-block;
+    list-style: none;
+    color: aliceblue;
+}
+
+.volverinicio2{
+    text-decoration: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+
+
+.idiomasp{
+     width: 40%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 170px;
+    
+}
+.idiomasprin{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-end;
+margin-bottom: 100%;
+flex-direction: column;
+}
+
+
+
+.idiomasnombre{
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+color: aliceblue;
+flex-direction: column;
+}
+
+.idiomasimagen{
+    display: flex;
+width: 10%;
+align-items: flex-end;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+
+/*aplicando flex a html.videos*/
+
+.articlehtmlvideo{ margin: 0px 20px 0px 20px;
+
+}
+
+
+
+.videosyou{
+    width: 95%;
+}
+
+.sectionvideos1{ display: flex;
+                justify-content: space-around;
+            align-items: center;
+                
+
+}
+
+.sectionvideos2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+
+
+/*aplicando grid a calendario.html*/
+
+
+
