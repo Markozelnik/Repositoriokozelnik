@@ -180,6 +180,7 @@ h1 {
 
 }
 
+
 .deportes2 .deportes3{
           display: flex;
           justify-content: space-around;
@@ -187,9 +188,13 @@ h1 {
 }
 .deportesfoto2{
     width: 40%;
-    height:100% ;
+    height:100% ; }
     
- }
+ 
+
+
+
+ 
 .deportesfoto3{
     width: 20%;
     
@@ -427,9 +432,14 @@ flex-direction: column;
 }
 
 
+/*aplicando transicion a video de index.html*/
 
 
-/*aplicando grid a calendario.html*/
+.video1{
+    transition: all 1;
+}
 
-
+.you:hover {
+    transform: scale(1.3);
+}
 
