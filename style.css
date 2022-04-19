@@ -461,3 +461,18 @@ flex-direction: column;
     
     
     }
+
+
+    /*aplicando listas desplegables de bootstrap en deportes html*/
+
+.listasdeportes{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 30px 40px 23px;
+}
+
+.listasdeportes2{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px 10px 10px;
+}
