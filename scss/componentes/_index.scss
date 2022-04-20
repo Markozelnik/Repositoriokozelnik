@@ -1,0 +1,247 @@
+ /*Inicio de header*/
+ .header{
+    grid-area: header;
+
+}
+
+
+.logo1{
+    display: flex;
+    justify-content:center ;
+}
+
+
+ .logo{
+     width: 10%;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     display: inline;
+     
+    
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*todo relacionado con el titulo principal*/
+h1 {
+    color: rgb(5, 18, 95);
+    border: 4px solid rgb(4, 22, 119);
+    display: inline;
+    background-color:rgb(183, 218, 235) ;
+    font-size:50px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+    
+ 
+
+  /*fin de h1*/
+  /*inicio de zona navegable*/
+
+ nav ul li a{
+    
+    color: rgb(251, 254, 255);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+  }
+    
+
+ .zonanav1{
+     
+     padding: 20px 0;
+     display: flex;
+     justify-content: center;
+     background-color: rgb(23, 23, 88);
+    
+ }
+ 
+ .zonanav2{
+            width: 70%;
+           display: flex;
+           justify-content:space-around ;
+           list-style: none;
+ }
+
+
+
+
+
+  /*fin de zona navegable*/
+
+
+  .Deportesfoto{
+        border-radius: 10%;        
+        margin: 80px 100px 100px 150px;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        height: 60%;
+       
+  }
+ 
+ .carousel1{ margin: 10px 0px 10px 0px;
+
+ } 
+ /*fin de header*/
+
+ /*Inicio de zona de imagenes = article*/
+
+
+.article1{
+    display:flex ;
+   
+   
+}
+
+
+.divfotos1 .divfotos2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px;
+}
+
+.divfotos1{ 
+ margin: 10px 10px 10px 10px;
+}
+
+.divfotos2{ margin: 10px 10px 10px 10px;
+
+}
+
+.deportesfoto2{
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+     }
+    
+ 
+
+ 
+.deportesfoto3{
+    width: 58%;
+    margin: 10px 10px 10px 80px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.aside{
+    border-radius: 9px;
+    width: 100%;
+    height: 100%;
+    margin-left: 700px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+.zonavideo{
+display: flex;
+justify-content: center ;
+margin-top: 40%;
+
+
+}
+
+.video1{
+   width: 40%;
+   display:flex ;
+   justify-content: center;
+   
+
+}
+
+
+
+
+
+/*termina zona de article*/
+  /*empieza el footer*/
+
+
+
+
+
+
+
+
+
+.redes{
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    
+    
+    
+
+}
+
+.iconos{
+    width: 4%;
+    
+}
+    
+
+
+
+.color{
+    color: rgb(23, 131, 134);
+    
+
+
+}
+
+
+
+.idioma{
+    position: sticky;
+    bottom: 0%;
+    left: 95%;
+    display: inline-block;
+    list-style: none;
+    color: black;
+
+}
+
+.idioma2{
+    text-decoration: none;
+    color: black;
+    
+    
+
+    
+}
+
+
+
+
+ /*fin de footer*/
+
+
+/*aplicando transicion a video de index.html*/
+
+
+.video1{
+    transition: all 1;
+}
+
+.you:hover {
+    transform: scale(1.3);
+}
+
+/*fin de index*/

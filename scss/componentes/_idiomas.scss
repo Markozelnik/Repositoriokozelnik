@@ -1,0 +1,55 @@
+/*html.idiomas*/
+
+
+.volverinicio{
+    position: absolute;
+    bottom: 80%;
+    left: 90%;
+    display: inline-block;
+    list-style: none;
+    color: aliceblue;
+}
+
+.volverinicio2{
+    text-decoration: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+
+
+.idiomasp{
+     width: 40%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 170px;
+    
+}
+.idiomasprin{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-end;
+margin-bottom: 100%;
+flex-direction: column;
+}
+
+
+
+.idiomasnombre{
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+color: aliceblue;
+flex-direction: column;
+}
+
+.idiomasimagen{
+    display: flex;
+width: 10%;
+align-items: flex-end;
+flex-wrap: wrap;
+flex-direction: column;
+}
