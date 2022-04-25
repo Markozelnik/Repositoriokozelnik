@@ -296,6 +296,11 @@ nav ul li a {
   align-items: center;
 }
 
+@media screen and (max-width: 490px) {
+  .sectionvideos1 {
+    display: block;
+  }
+}
 /*html.idiomas*/
 .volverinicio {
   position: absolute;
