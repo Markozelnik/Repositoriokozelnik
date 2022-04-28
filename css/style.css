@@ -17,9 +17,7 @@
 /*en un futuro tendra root*/
 /*fin de root*/
 .elfondo {
-  background-image: url(../imagenes/fondoprincipal.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: url(https://images5.alphacoders.com/571/thumb-1920-571559.jpg) !important;
 }
 
 p {
