@@ -13,8 +13,8 @@
 
 
  .logo{
-     width: 10%;
-     border-radius: 50%;
+     width: 17%;
+     border-radius: 60%;
      display: flex;
      justify-content: center;
      display: inline;
@@ -48,6 +48,15 @@ h1 {
   /*fin de h1*/
   /*inicio de zona navegable*/
 
+
+  /*tezto index*/
+.texto1{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+}
+
+  /*fin texto index*/
  nav ul li a{
     
     color: rgb(251, 254, 255);
@@ -127,7 +136,7 @@ h1 {
 
  
 .deportesfoto3{
-    width: 58%;
+    width: 62%;
     margin: 10px 10px 10px 80px;
     display: flex;
     align-items: center;
@@ -135,6 +144,12 @@ h1 {
     
     
 }
+
+.pprin{
+    display: flex;
+    align-items: center;
+}
+
 
 .aside{
     border-radius: 9px;
