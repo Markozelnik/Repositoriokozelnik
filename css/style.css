@@ -30,7 +30,7 @@ p {
   font-family: "Nunito", sans-serif;
   color: rgb(224, 220, 220);
   display: inline;
-  border: 4px solid rgb(9, 148, 167);
+  border: 4px solid rgb(25, 124, 124);
   margin-bottom: 5;
   background-color: rgb(25, 124, 124);
   font-size: 30px;
@@ -74,7 +74,7 @@ h1 {
 .texto1 {
   display: flex;
   justify-content: center;
-  margin: 10px 10px 10px 10px;
+  margin: 70px 10px 10px 10px;
 }
 
 /*fin texto index*/
@@ -88,7 +88,7 @@ nav ul li a {
   padding: 20px 0;
   display: flex;
   justify-content: center;
-  background-color: rgb(23, 23, 88);
+  background-color: rgb(28, 28, 92);
 }
 
 .zonanav2 {
@@ -109,7 +109,7 @@ nav ul li a {
 }
 
 .carousel1 {
-  margin: 10px 0px 10px 0px;
+  margin: 70px 70px 70px 70px;
 }
 
 /*fin de header*/
