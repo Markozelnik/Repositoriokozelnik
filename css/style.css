@@ -56,8 +56,16 @@ p {
   justify-content: center;
 }
 
+.logoindex {
+  width: 90%;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  display: inline;
+}
+
 .logo {
-  width: 17%;
+  width: 14%;
   border-radius: 60%;
   display: flex;
   justify-content: center;
@@ -83,8 +91,8 @@ h1 {
   display: flex;
   justify-content: center;
   margin: 70px 10px 10px 10px;
-  color: rgb(189, 198, 206);
-  background-color: rgb(20, 19, 75);
+  color: rgb(231, 236, 241);
+  font-size: 18px;
 }
 
 /*fin texto index*/
@@ -98,7 +106,7 @@ nav ul li a {
   padding: 20px 0;
   display: flex;
   justify-content: center;
-  background-color: rgb(28, 28, 92);
+  background-color: rgb(11, 11, 61);
 }
 
 .zonanav2 {
@@ -106,6 +114,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  font-size: 20px;
 }
 
 /*fin de zona navegable*/
@@ -134,21 +143,17 @@ nav ul li a {
   margin: 10px 10px 10px 10px;
 }
 
-.divfotos1 {
-  margin: 10px 10px 10px 10px;
-}
-
-.divfotos2 {
+.divfotos1 .divfotos2 {
   margin: 10px 10px 10px 10px;
 }
 
 .deportesfoto2 {
-  width: 100%;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 60px;
+  display: flex;
+  align-items: center;
 }
 
 .deportesfoto3 {
-  width: 62%;
   margin: 10px 10px 10px 80px;
   display: flex;
   align-items: center;
@@ -157,6 +162,50 @@ nav ul li a {
 .pprin {
   display: flex;
   align-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+/*imagenes debajo*/
+.articlefem {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px 10px 10px;
+}
+
+.divfotosfem .divfotosfem2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 10px 10px 10px;
+  align-items: center;
+}
+
+.fotofem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.fotofem2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 80px;
+}
+
+/*parafos de las segunda linea de fotos*/
+.pfem {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 10px 10px 10px 10px;
+}
+
+.pfem2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 10px 10px 10px 10px;
 }
 
 .aside {
@@ -200,12 +249,12 @@ nav ul li a {
   left: 95%;
   display: inline-block;
   list-style: none;
-  color: black;
+  color: rgb(243, 236, 236);
 }
 
 .idioma2 {
   text-decoration: none;
-  color: black;
+  color: rgb(226, 218, 218);
 }
 
 /*fin de footer*/
