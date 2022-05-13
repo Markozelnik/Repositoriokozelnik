@@ -90,7 +90,7 @@ h1 {
 .texto1 {
   display: flex;
   justify-content: center;
-  margin: 70px 10px 10px 10px;
+  margin: 70px 30px 10px 30px;
   color: rgb(231, 236, 241);
   font-size: 18px;
 }
@@ -132,7 +132,7 @@ nav ul li a {
 .divfotos1 .divfotos2 {
   display: flex;
   justify-content: space-around;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 30px 10px 30px;
 }
 
 .divfotos1 .divfotos2 {
@@ -154,7 +154,7 @@ nav ul li a {
 .pprin {
   display: flex;
   align-items: center;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 30px 10px 30px;
 }
 
 /*imagenes debajo*/
@@ -190,14 +190,14 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 40px 10px 30px;
 }
 
 .pfem2 {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 20px 10px 30px;
 }
 
 .aside {
@@ -211,7 +211,7 @@ nav ul li a {
 .zonavideo {
   display: flex;
   justify-content: center;
-  margin-top: 40%;
+  margin-top: 40px;
 }
 
 .video1 {
@@ -310,31 +310,12 @@ nav ul li a {
   margin: 20px 0px 20px 0px;
 }
 
-/*imagenes en deportes.html*/
-.deportesfoto {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
-
-.fotosdeportes {
-  width: 40%;
-  display: flex;
-  align-items: flex-end;
-  padding: 40px 0px;
-}
-
-/*aplicando listas desplegables de bootstrap en deportes html*/
-.listasdeportes {
+/* aplicando css a fotos de deportes*/
+.deportes1 {
   display: flex;
   justify-content: space-around;
-  margin: 10px 30px 40px 23px;
-}
-
-.listasdeportes2 {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 10px 10px 10px;
+  align-items: center;
+  margin: 20px 20px 50px 20px;
 }
 
 /*aplicando flex a html.videos*/

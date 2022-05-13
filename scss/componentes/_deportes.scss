@@ -1,35 +1,11 @@
+/* aplicando css a fotos de deportes*/
 
-/*imagenes en deportes.html*/
-
-
-.deportesfoto{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-
+.deportes1{ display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 20px 50px 20px;
 
 }
 
 
-.fotosdeportes{
-width: 40%;
-display: flex;
-align-items: flex-end;
-padding: 40px 0px;
-
-}
-
-/*aplicando listas desplegables de bootstrap en deportes html*/
-
-.listasdeportes{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 30px 40px 23px;
-}
-
-.listasdeportes2{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 10px 10px 10px;
-}
 
