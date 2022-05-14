@@ -300,12 +300,13 @@ margin-top: 40px
 /*aplicando transicion a video de index.html*/
 
 
-.video1{
-    transition: all 1;
+.you:hover{ 
+    transform: scale(1.3);
+   
 }
 
-.you:hover {
-    transform: scale(1.3);
+.video1{transition: all 2s;
+    
 }
 
 /*fin de index*/
