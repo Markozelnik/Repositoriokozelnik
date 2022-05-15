@@ -132,11 +132,11 @@ nav ul li a {
 .divfotos1 .divfotos2 {
   display: flex;
   justify-content: space-around;
-  margin: 10px 30px 10px 30px;
+  margin: 10px 30px 10px 40px;
 }
 
 .divfotos1 .divfotos2 {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 20px;
 }
 
 .deportesfoto2 {
@@ -250,7 +250,29 @@ nav ul li a {
 }
 
 /*fin de footer*/
-/*aplicando transicion a video de index.html*/
+/*aplicando transicion de index.html*/
+/*fotos debajo del  carrusel*/
+.foto:hover {
+  transform: scale(1.1);
+}
+
+.divfotos1 {
+  transition: all 2s;
+}
+
+.divfotos2 {
+  transition: all 2s;
+}
+
+.divfotosfem {
+  transition: all 2s;
+}
+
+.divfotosfem2 {
+  transition: all 2s;
+}
+
+/*video de youtube index*/
 .you:hover {
   transform: scale(1.3);
 }
