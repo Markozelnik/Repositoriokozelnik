@@ -190,7 +190,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  margin: 10px 40px 10px 30px;
+  margin: 10px 20px 10px 30px;
 }
 
 .pfem2 {
@@ -488,6 +488,25 @@ nav ul li a {
 /*aplicando fondo para voleyhtml*/
 .elfondovol {
   background-image: url(https://cdn.presstv.ir/Photo/2021/6/17/606f855b-d7b0-4fe8-a862-99b813ead605.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*aplicando fondo para messihtml*/
+.elfondomess {
+  background-image: url(https://fondosmil.com/fondo/6220.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*apliando fondo para verstappenhtml*/
+.elfondover {
+  background-image: url(https://b-static.besthdwallpaper.com/max-verstappen-piloto-redbull-racing-rb18-formula-1-2022-papel-pintado-2560x1600-92199_7.jpg);
+}
+
+/*aplicando fondo a djokovichtml*/
+.elfondodjok {
+  background-image: url(https://images4.alphacoders.com/100/thumb-1920-1006961.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
