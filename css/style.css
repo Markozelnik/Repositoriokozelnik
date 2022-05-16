@@ -182,7 +182,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 /*parafos de las segunda linea de fotos*/
@@ -282,6 +282,13 @@ nav ul li a {
 }
 
 /*fin de index*/
+/*fondo para futbol.html*/
+.elfondofut {
+  background-image: url(https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/04/26/000863712W.jpg) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /*aplicando css a competiciones.html*/
 .competiciones1 {
   display: flex;
@@ -338,6 +345,35 @@ nav ul li a {
   justify-content: space-around;
   align-items: center;
   margin: 20px 20px 50px 20px;
+}
+
+/*aplicando transicion a imagenes deporteshtml*/
+.deport:hover {
+  transform: scale(1.1);
+}
+
+.depfut {
+  transition: all 2s;
+}
+
+.depbas {
+  transition: all 2s;
+}
+
+.depfor {
+  transition: all 2s;
+}
+
+.deprug {
+  transition: all 2s;
+}
+
+.depten {
+  transition: all 2s;
+}
+
+.depvol {
+  transition: all 2s;
 }
 
 /*aplicando flex a html.videos*/
@@ -412,6 +448,48 @@ nav ul li a {
   align-items: flex-end;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+/*fondo para futbol.html*/
+.elfondofut {
+  background-image: url(https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/04/26/000863712W.jpg) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*fondo para basquet*/
+.elfondobasq {
+  background-image: url(https://images2.alphacoders.com/982/thumb-1920-982248.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*aplicando fondo de pantalla para tenishtml*/
+.elfondoten {
+  background-image: url(https://images2.alphacoders.com/987/thumb-1920-987404.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*aplicando fondo a formula1*/
+.elfondofor {
+  background-image: url(https://www.hdwallpapers.in/download/formula_1_lewis_hamilton_mercedes_amg_f1_power_racing_valteri_bottas_hd_f1_2020-HD.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*aplicando el fondo para rugbyhtml*/
+.elfondorugb {
+  background-image: url(https://wallpapercave.com/wp/wp10729887.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*aplicando fondo para voleyhtml*/
+.elfondovol {
+  background-image: url(https://cdn.presstv.ir/Photo/2021/6/17/606f855b-d7b0-4fe8-a862-99b813ead605.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=style.css.map */

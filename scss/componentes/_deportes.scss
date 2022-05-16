@@ -7,5 +7,34 @@
 
 }
 
+/*aplicando transicion a imagenes deporteshtml*/
 
+.deport:hover{
+    transform: scale(1.1);
+}
 
+.depfut{
+    transition: all 2s;
+
+}
+
+.depbas{ 
+    transition: all 2s;
+
+}
+
+.depfor{
+    transition: all 2s;
+}
+
+.deprug{
+    transition: all 2s;
+}
+
+.depten{
+    transition: all 2s;
+}
+
+.depvol{
+    transition: all 2s;
+}
