@@ -69,6 +69,15 @@ p {
   text-shadow: 0 0 10px rgba(60, 144, 218, 0.63), 0 0 20px rgb(156, 179, 31), 0 0 30px rgba(0, 6, 10, 0.63);
 }
 
+h3 {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px 30px 30px;
+  font-size: 40px;
+}
+
 /*Inicio de header*/
 .header {
   grid-area: header;
@@ -313,6 +322,14 @@ nav ul li a {
 }
 
 /*aplicando css a competiciones.html*/
+.pcompeticiones {
+  display: flex;
+  justify-content: center;
+  margin: 50px 30px 50px 30px;
+  color: rgb(231, 236, 241);
+  font-size: 18px;
+}
+
 .competiciones1 {
   display: flex;
   justify-content: space-around;
@@ -362,6 +379,15 @@ nav ul li a {
   margin: 20px 0px 20px 0px;
 }
 
+/*parrafo deportes html*/
+.pdeportes {
+  display: flex;
+  justify-content: center;
+  margin: 70px 30px 50px 30px;
+  color: rgb(231, 236, 241);
+  font-size: 18px;
+}
+
 /* aplicando css a fotos de deportes*/
 .deportes1 {
   display: flex;
@@ -400,6 +426,14 @@ nav ul li a {
 }
 
 /*aplicando flex a html.videos*/
+.pvideos {
+  display: flex;
+  justify-content: center;
+  margin: 50px 30px 40px 30px;
+  color: rgb(231, 236, 241);
+  font-size: 18px;
+}
+
 .articlehtmlvideo {
   margin: 0px 20px 0px 20px;
 }
@@ -415,6 +449,12 @@ nav ul li a {
 }
 
 .sectionvideos2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sectionvideos3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
