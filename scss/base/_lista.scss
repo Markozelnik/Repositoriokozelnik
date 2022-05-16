@@ -51,16 +51,43 @@ p{
 }
 
  /*titulos secundarios*/
-.titulo2{
+.titulosh2{ color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    transition: .5s linear;}
+.h2 span{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    transition: .5s linear;
+}
+
+
+
+
+.prueba:hover{ 
+    transform: scale(1.2);
+               
+    
+}
+
+ .titulo2{
     font-family:'Nunito', sans-serif; 
-    color: rgb(224, 220, 220) ;;
+    color: rgb(238, 240, 233) ;;
     display: inline;
-    border: 4px solid rgb(25, 124, 124);
     margin-bottom: 5;
-    background-color: rgb(25, 124, 124);
-    font-size: 30px;
+    font-size: 100px;
+    border:rgba(0, 6, 10, 0.63);
     display: flex;
     justify-content: center;
+    transition: all 1s
 
 
+}
+
+.prueba:hover{
+    color: aliceblue;
+    text-shadow: 0 0 10px rgba(60, 144, 218, 0.63),
+                 0 0 20px rgb(156, 179, 31),
+                 0 0 30px rgba(0, 6, 10, 0.63);
 }

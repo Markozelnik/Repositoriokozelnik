@@ -34,16 +34,39 @@ p {
 }
 
 /*titulos secundarios*/
+.titulosh2 {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.5s linear;
+}
+
+.h2 span {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.5s linear;
+}
+
+.prueba:hover {
+  transform: scale(1.2);
+}
+
 .titulo2 {
   font-family: "Nunito", sans-serif;
-  color: rgb(224, 220, 220);
+  color: rgb(238, 240, 233);
   display: inline;
-  border: 4px solid rgb(25, 124, 124);
   margin-bottom: 5;
-  background-color: rgb(25, 124, 124);
-  font-size: 30px;
+  font-size: 100px;
+  border: rgba(0, 6, 10, 0.63);
   display: flex;
   justify-content: center;
+  transition: all 1s;
+}
+
+.prueba:hover {
+  color: aliceblue;
+  text-shadow: 0 0 10px rgba(60, 144, 218, 0.63), 0 0 20px rgb(156, 179, 31), 0 0 30px rgba(0, 6, 10, 0.63);
 }
 
 /*Inicio de header*/
@@ -284,7 +307,7 @@ nav ul li a {
 /*fin de index*/
 /*fondo para futbol.html*/
 .elfondofut {
-  background-image: url(https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/04/26/000863712W.jpg) !important;
+  background-image: url(https://b-static.besthdwallpaper.com/el-joven-talento-del-delantero-del-club-de-futbol-paris-saint-germain-kylian-mbappe-papel-pintado-2048x1536-93143_26.jpg) !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -452,14 +475,14 @@ nav ul li a {
 
 /*fondo para futbol.html*/
 .elfondofut {
-  background-image: url(https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/04/26/000863712W.jpg) !important;
+  background-image: url(https://b-static.besthdwallpaper.com/el-joven-talento-del-delantero-del-club-de-futbol-paris-saint-germain-kylian-mbappe-papel-pintado-2048x1536-93143_26.jpg) !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 /*fondo para basquet*/
 .elfondobasq {
-  background-image: url(https://images2.alphacoders.com/982/thumb-1920-982248.jpg);
+  background-image: url(https://fondosmil.com/fondo/1738.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -473,14 +496,13 @@ nav ul li a {
 
 /*aplicando fondo a formula1*/
 .elfondofor {
-  background-image: url(https://www.hdwallpapers.in/download/formula_1_lewis_hamilton_mercedes_amg_f1_power_racing_valteri_bottas_hd_f1_2020-HD.jpg);
-  background-repeat: no-repeat;
+  background-image: url(https://www.impulsonegocios.com/wp-content/uploads/2021/03/hamilton-auto-0303DEF.jpg);
   background-attachment: fixed;
 }
 
 /*aplicando el fondo para rugbyhtml*/
 .elfondorugb {
-  background-image: url(https://wallpapercave.com/wp/wp10729887.jpg);
+  background-image: url(https://media.gq-magazine.co.uk/photos/5e3d4999995fbc000861255d/16:9/w_2560%2Cc_limit/20200207-parsons-01.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
