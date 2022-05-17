@@ -3,37 +3,68 @@
 .elfondodjok{
     background-image: url(https://images4.alphacoders.com/100/thumb-1920-1006961.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed
+    background-attachment: fixed;
    
 }
 
 /*las imagenes iran de los costados y el texto en el medio */
 
-.sectiondjokov{ margin: 30px 30px 30px 30px;
-
-}
 /*imagenes */
-.imagenesdjokov{ display: flex;
-                 justify-content: space-between;
-                 margin: 10px 10px 10px 10px;
+
+.sectidjokov{  display: flex;
+               justify-content: space-around;
+               margin: 30px 30px 30px 30px;
+               
+
 
 }
 
-/*texto*/
+
+.imagenesdjokov{ display: block;
+                  margin: 10px 10px 10px 10px;
+                
+
+}
 
 .pdivdjokov{ display: flex;
-             justify-content: center;
-             align-items: center;
+    justify-content: flex-end;
+    margin: 10px 10px 10px 10px;
 
 }
+/*texto*/
+
 
 .pdjokov{ 
     color: aliceblue;
     border:rgba(0, 6, 10, 0.63);
     display: flex;
-    justify-content:center;
+    justify-content:flex-end;
     font-size: 18px;
-    margin: 10px 10px 10px 10px;
+    
 
+
+}
+
+.imagenesdjokov1{ 
+                  
+                  display: inline;
+                  margin: 30px 40px 30px 40px;
+                
+}
+
+.djokovfot4{ margin: 5px 5px 5px 5px;
+
+}
+
+.djokovfot5{ margin: 5px 5px 5px 5px;
+
+
+}
+
+.djokovfot6{ margin: 5px 5px 5px 5px;
+
+}
+
+.djokovfot7{ margin: 5px 5px 5px 5px;
 
 }

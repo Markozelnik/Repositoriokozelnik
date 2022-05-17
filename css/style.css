@@ -706,31 +706,52 @@ nav ul li a {
 }
 
 /*las imagenes iran de los costados y el texto en el medio */
-.sectiondjokov {
+/*imagenes */
+.sectidjokov {
+  display: flex;
+  justify-content: space-around;
   margin: 30px 30px 30px 30px;
 }
 
-/*imagenes */
 .imagenesdjokov {
+  display: block;
+  margin: 10px 10px 10px 10px;
+}
+
+.pdivdjokov {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 10px 10px 10px 10px;
 }
 
 /*texto*/
-.pdivdjokov {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .pdjokov {
   color: aliceblue;
   border: rgba(0, 6, 10, 0.63);
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: 18px;
-  margin: 10px 10px 10px 10px;
+}
+
+.imagenesdjokov1 {
+  display: inline;
+  margin: 30px 40px 30px 40px;
+}
+
+.djokovfot4 {
+  margin: 5px 5px 5px 5px;
+}
+
+.djokovfot5 {
+  margin: 5px 5px 5px 5px;
+}
+
+.djokovfot6 {
+  margin: 5px 5px 5px 5px;
+}
+
+.djokovfot7 {
+  margin: 5px 5px 5px 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
