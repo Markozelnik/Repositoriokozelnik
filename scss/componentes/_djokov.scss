@@ -6,3 +6,34 @@
     background-attachment: fixed
    
 }
+
+/*las imagenes iran de los costados y el texto en el medio */
+
+.sectiondjokov{ margin: 30px 30px 30px 30px;
+
+}
+/*imagenes */
+.imagenesdjokov{ display: flex;
+                 justify-content: space-between;
+                 margin: 10px 10px 10px 10px;
+
+}
+
+/*texto*/
+
+.pdivdjokov{ display: flex;
+             justify-content: center;
+             align-items: center;
+
+}
+
+.pdjokov{ 
+    color: aliceblue;
+    border:rgba(0, 6, 10, 0.63);
+    display: flex;
+    justify-content:center;
+    font-size: 18px;
+    margin: 10px 10px 10px 10px;
+
+
+}

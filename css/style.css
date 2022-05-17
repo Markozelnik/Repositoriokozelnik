@@ -49,7 +49,7 @@ p {
 }
 
 .prueba:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .titulo2 {
@@ -62,6 +62,7 @@ p {
   display: flex;
   justify-content: center;
   transition: all 1s;
+  margin: 0px 10px 0px 10px;
 }
 
 .prueba:hover {
@@ -246,6 +247,7 @@ nav ul li a {
 .redes {
   display: inline-block;
   font-family: "Nunito", sans-serif;
+  margin: 100px 0px 0px 0px;
 }
 
 .iconos {
@@ -546,9 +548,154 @@ nav ul li a {
   background-attachment: fixed;
 }
 
+/* primer parrafo de la seccion de messsi */
+.sectionmessi1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px 30px 30px;
+}
+
+/*parrafo*/
+.divmessi1 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 10px 10px 10px;
+}
+
+.pmessi1 {
+  color: aliceblue;
+  border: rgba(0, 6, 10, 0.63);
+  display: flex;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+
+/*imagen*/
+.divimgmessi1 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px 10px 10px;
+}
+
+.imgmessi1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*fin del primer parrafo*/
+/*inicio de segundo parrafo*/
+/*imagen*/
+.sectionmessi2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 30px 30px 30px;
+}
+
+.divimgmessi2 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 10px 10px 10px;
+}
+
+.imgmessi2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*parrafo*/
+.divmessi2 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px 10px 10px;
+}
+
+.pmessi2 {
+  color: aliceblue;
+  border: rgba(0, 6, 10, 0.63);
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+/*fin de segundo parrafo*/
+/*inicio tercer parrafo*/
+.sectionmessi3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px 30px 30px;
+}
+
+.divmessi3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.pmessi3 {
+  color: aliceblue;
+  border: rgba(0, 6, 10, 0.63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+/*fin tercer parrafo*/
+/*inico zona de fotos*/
+.sectionbalondeoro {
+  display: inline;
+  margin: 30px 40px 30px 40px;
+}
+
+.messioro1 {
+  margin: 5px 5px 5px 5px;
+}
+
+.messioro2 {
+  margin: 5px 5px 5px 5px;
+}
+
+.messioro3 {
+  margin: 5px 5px 5px 5px;
+}
+
+.messioro4 {
+  margin: 5px 5px 5px 5px;
+}
+
 /*apliando fondo para verstappenhtml*/
 .elfondover {
   background-image: url(https://b-static.besthdwallpaper.com/max-verstappen-piloto-redbull-racing-rb18-formula-1-2022-papel-pintado-2560x1600-92199_7.jpg);
+}
+
+/*informacion de verstappen fotos y parrafo*/
+.sectionverstappen {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 30px 30px 30px;
+}
+
+/*fotos*/
+.divvertaimg {
+  display: block;
+  margin: 10px 10px 10px 10px;
+}
+
+/*parrafo*/
+.divertap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px 10px 10px;
+}
+
+.pversta {
+  color: aliceblue;
+  border: rgba(0, 6, 10, 0.63);
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
 }
 
 /*aplicando fondo a djokovichtml*/
@@ -556,6 +703,34 @@ nav ul li a {
   background-image: url(https://images4.alphacoders.com/100/thumb-1920-1006961.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+/*las imagenes iran de los costados y el texto en el medio */
+.sectiondjokov {
+  margin: 30px 30px 30px 30px;
+}
+
+/*imagenes */
+.imagenesdjokov {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+}
+
+/*texto*/
+.pdivdjokov {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdjokov {
+  color: aliceblue;
+  border: rgba(0, 6, 10, 0.63);
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin: 10px 10px 10px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
