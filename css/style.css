@@ -222,14 +222,6 @@ nav ul li a {
   margin: 10px 20px 10px 30px;
 }
 
-.aside {
-  border-radius: 9px;
-  width: 100%;
-  height: 100%;
-  margin-left: 700px;
-  background-color: blueviolet;
-}
-
 .zonavideo {
   display: flex;
   justify-content: center;
@@ -265,6 +257,7 @@ nav ul li a {
   display: inline-block;
   list-style: none;
   color: rgb(243, 236, 236);
+  font-size: 30px;
 }
 
 .idioma2 {
@@ -904,6 +897,73 @@ nav ul li a {
 
 .djokovfot7 {
   margin: 5px 5px 5px 5px;
+}
+
+/*aplicando css para imagenes y los textos que tengan dentro*/
+/*primer imagen*/
+.famoso1 {
+  margin: 100px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.famoso1:before, .famoso1:after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 30px);
+  height: 4px;
+  background: #fff;
+  transition: all 0.3s;
+}
+.famoso1:before {
+  left: -100%;
+}
+.famoso1:after {
+  left: 100%;
+}
+.famoso1:hover:before, .famoso1:hover:after {
+  right: 15px;
+}
+.famoso1 .famoso1text {
+  color: #fff;
+  padding: 10px 20px;
+  border: rgb(8, 2, 2);
+  margin: 50px 50px 50px 50px;
+  border-radius: 15%;
+  text-align: center;
+  transition: all 0.3s;
+  transform: scale(1.5);
+  opacity: 0;
+}
+.famoso1:hover .famoso1text {
+  transform: scale(1);
+  opacity: 1;
+}
+.famoso1 .cr7titulo {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+  border: black;
+}
+.famoso1 .cr7parrafo {
+  font-size: 20px;
+  border: rgb(8, 8, 8);
+  border-spacing: 10px;
+}
+.famoso1 .cr7titulos {
+  border: black;
+}
+
+.famoso1foto {
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,77 @@
+/*aplicando css para imagenes y los textos que tengan dentro*/
+
+/*primer imagen*/
+
+.famoso1{ margin: 100px auto;
+          position:relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          overflow: hidden;
+          cursor: pointer;
+
+         &:before, &:after{
+             content: "";
+             position: absolute;
+             width: calc(100% - 30px);
+             height: 4px;
+             background: #fff;
+             transition: all 0.3s;
+
+         }
+         &:before{left: -100% ;}
+         &:after{left: 100%;}
+        
+        
+         &:hover:before, &:hover:after{
+             right: 15px;
+        
+         }
+        
+        
+        
+        
+        .famoso1text{ color: #fff;
+                      padding: 10px 20px;
+                      border: rgb(8, 2, 2);
+                      margin: 50px 50px 50px 50px;
+                      border-radius: 15%;
+                      
+                      
+                      text-align:center;
+                      
+                      transition: all .3s;
+        
+                      transform: scale(1.5);
+                      opacity: 0;
+        
+                     }
+
+          &:hover .famoso1text{ transform: scale(1);
+                                opacity: 1;
+
+          }     
+          .cr7titulo{ font-size: 40px;
+            font-family:'Times New Roman', Times, serif ;
+            text-decoration: underline;
+            border: black;
+                      
+          }      
+          .cr7parrafo{
+                      font-size: 20px;
+                      border: rgb(8, 8, 8);
+                      border-spacing: 10px;
+          }
+          .cr7titulos{ border: black;
+
+          }
+}
+
+.famoso1foto{ padding: 50px 50px 50px 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 15%;
+
+}
