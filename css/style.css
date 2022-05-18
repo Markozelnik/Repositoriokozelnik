@@ -321,6 +321,12 @@ nav ul li a {
   font-size: 18px;
 }
 
+.medio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .competiciones1 {
   display: flex;
   justify-content: space-around;
@@ -414,6 +420,152 @@ nav ul li a {
 
 .depvol {
   transition: all 2s;
+}
+
+/*aplicando titulo a las fotos */
+/*futbol*/
+.tituloprin1 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.titulosdeportes1 {
+  text-align: center;
+  padding: 10px 20px;
+  position: absolute;
+  transition: all 2s;
+  transform: scale(1.1);
+  opacity: 0;
+  font-family: bold;
+  font-size: 50px;
+}
+
+.titulosdeportes1:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/*basquetball*/
+.tituloprin2 {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.titulosdeportes2 {
+  text-align: center;
+  padding: 10px 20px;
+  position: absolute;
+  transition: all 2s;
+  transform: scale(1.1);
+  opacity: 0;
+  font-family: bold;
+  font-size: 50px;
+}
+
+.titulosdeportes2:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/*formula1*/
+.tituloprin3 {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.titulosdeportes3 {
+  text-align: left;
+  padding: 10px 20px;
+  position: absolute;
+  transition: all 2s;
+  transform: scale(1.1);
+  opacity: 0;
+  font-family: bold;
+  font-size: 50px;
+}
+
+.titulosdeportes3:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/*rugby*/
+.tituloprin4 {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.titulosdeportes4 {
+  text-align: right;
+  padding: 10px 20px;
+  position: absolute;
+  transition: all 2s;
+  transform: scale(1.1);
+  opacity: 0;
+  font-family: bold;
+  font-size: 50px;
+}
+
+.titulosdeportes4:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/*tenis*/
+.tituloprin5 {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.titulosdeportes5 {
+  text-align: left;
+  padding: 10px 20px;
+  position: absolute;
+  transition: all 2s;
+  transform: scale(1.1);
+  opacity: 0;
+  font-family: bold;
+  font-size: 50px;
+}
+
+.titulosdeportes5:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/*voley*/
+.tituloprin6 {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.titulosdeportes6 {
+  text-align: right;
+  padding: 10px 20px;
+  position: absolute;
+  transition: all 2s;
+  transform: scale(1.1);
+  opacity: 0;
+  font-family: bold;
+  font-size: 50px;
+}
+
+.titulosdeportes6:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 /*aplicando flex a html.videos*/
