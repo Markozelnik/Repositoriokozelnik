@@ -719,6 +719,7 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   margin: 30px 30px 30px 30px;
+  cursor: pointer;
 }
 
 /*parrafo*/
@@ -757,6 +758,7 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   margin: 30px 30px 30px 30px;
+  cursor: pointer;
 }
 
 .divimgmessi2 {
@@ -794,6 +796,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   margin: 30px 30px 30px 30px;
+  cursor: pointer;
 }
 
 .divmessi3 {
