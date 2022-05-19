@@ -111,6 +111,7 @@ h3 {
   margin: 70px 30px 10px 30px;
   color: rgb(231, 236, 241);
   font-size: 18px;
+  cursor: pointer;
 }
 
 /*fin texto index*/
@@ -141,6 +142,11 @@ nav ul li a {
 }
 
 /*fin de zona navegable*/
+/*carrusel*/
+.carruselprin {
+  cursor: pointer;
+}
+
 .carousel1 {
   margin: 70px 70px 70px 70px;
 }
@@ -177,6 +183,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   margin: 10px 30px 10px 30px;
+  cursor: pointer;
 }
 
 /*imagenes debajo*/
@@ -213,6 +220,7 @@ nav ul li a {
   justify-content: space-around;
   align-items: flex-end;
   margin: 10px 20px 10px 30px;
+  cursor: pointer;
 }
 
 .pfem2 {
@@ -220,6 +228,7 @@ nav ul li a {
   justify-content: space-around;
   align-items: flex-end;
   margin: 10px 20px 10px 30px;
+  cursor: pointer;
 }
 
 .zonavideo {
@@ -306,6 +315,13 @@ nav ul li a {
 }
 
 /*aplicando css a competiciones.html*/
+.tituloscompeticion1 {
+  font-size: 70px;
+  border: black;
+  border-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .pcompeticiones {
   display: flex;
   justify-content: center;
@@ -318,6 +334,10 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.competiciones11 {
+  margin: 50px 70px 50px 70px;
 }
 
 .competiciones1 {
@@ -434,6 +454,7 @@ nav ul li a {
   opacity: 0;
   font-family: bold;
   font-size: 50px;
+  border: black;
 }
 
 .titulosdeportes1:hover {
@@ -725,6 +746,8 @@ nav ul li a {
 .imgmessi1 {
   display: flex;
   justify-content: flex-end;
+  margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 /*fin del primer parrafo*/
@@ -745,6 +768,8 @@ nav ul li a {
 .imgmessi2 {
   display: flex;
   justify-content: flex-start;
+  margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 /*parrafo*/
@@ -796,18 +821,22 @@ nav ul li a {
 
 .messioro1 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 .messioro2 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 .messioro3 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 .messioro4 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 /*apliando fondo para verstappenhtml*/
@@ -826,6 +855,16 @@ nav ul li a {
 .divvertaimg {
   display: block;
   margin: 10px 10px 10px 10px;
+}
+
+.imagenver1 {
+  margin: 5px 5px 5px 5px;
+  border-radius: 15%;
+}
+
+.imagenver2 {
+  margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 /*parrafo*/
@@ -883,23 +922,46 @@ nav ul li a {
   margin: 30px 40px 30px 40px;
 }
 
+.djokovfot1 {
+  margin: 5px 5px 5px 5px;
+  border-radius: 15%;
+}
+
+.djokovfot3 {
+  margin: 5px 5px 5px 5px;
+  border-radius: 15%;
+}
+
 .djokovfot4 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 .djokovfot5 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 .djokovfot6 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 .djokovfot7 {
   margin: 5px 5px 5px 5px;
+  border-radius: 15%;
 }
 
 /*aplicando css para imagenes y los textos que tengan dentro*/
+.pfamosos {
+  display: flex;
+  justify-content: center;
+  margin: 70px 30px 10px 30px;
+  color: rgb(231, 236, 241);
+  font-size: 18px;
+  cursor: pointer;
+}
+
 /*primer imagen*/
 .famoso1 {
   margin: 100px auto;

@@ -1,5 +1,10 @@
 /*aplicando css a competiciones.html*/
+.tituloscompeticion1{  font-size: 70px;
+                       border: black;
+                       border-spacing: 2px;
+                       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
+}
 .pcompeticiones{
     display: flex;
     justify-content: center;
@@ -15,6 +20,9 @@
         align-items: center;
 }
 
+.competiciones11{
+                   margin: 50px 70px 50px 70px;
+}
 
 
 
