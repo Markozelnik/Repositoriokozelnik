@@ -25,7 +25,7 @@
 
 .sectionvideos1{ display: flex;
                  justify-content: space-around;
-                 align-items: center;
+                 
                 
 
 }
@@ -33,17 +33,66 @@
 .sectionvideos2{
                  display: flex;
                  justify-content: space-around;
-                 align-items: center;
-
+                 
 
 }
 
 .sectionvideos3{
                  display: flex;
                  justify-content: space-around;
-                 align-items: center;
+                 
 
 }
+
+
+
+.viideos1{  margin: 20px 20px 20px 20px;
+            width: 70%;
+            
+
+}
+
+
+
+
+.viideos3{ margin: 20px 20px 20px 20px;
+    width: 70%;
+    
+    
+}
+
+
+
+.viideos5{ margin: 20px 20px 20px 20px;
+    width: 70%;
+    
+    
+}
+
+.viideos6{ margin: 20px 20px 20px 20px;
+    width: 70%;
+    
+    
+}
+
+.viideos7{ margin: 20px 20px 20px 20px;
+    width: 70%;
+    
+    
+}
+
+
+
+.viideos9{ margin: 20px 20px 20px 20px;
+    width: 70%;
+    
+    
+}
+
+
+
+
+
 
 @media screen and (max-width: 490px){
     .sectionvideos1{display: block; }
