@@ -23,9 +23,7 @@
 
 }*/
 .elfondo {
-  background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1611/Tennis_ball_in_flight-Sports_Poster_Wallpaper_1366x768.jpg) !important;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: rgb(2, 14, 48);
 }
 
 p {
@@ -155,6 +153,7 @@ nav ul li a {
 /*Inicio de zona de imagenes = article*/
 .article1 {
   display: flex;
+  justify-content: space-around;
 }
 
 .divfotos1 .divfotos2 {
@@ -307,6 +306,74 @@ nav ul li a {
 }
 
 /*fin de index*/
+/*aplicando media*/
+@media screen and (max-width: 490px) {
+  /*logo*/
+  .logo1 {
+    margin-left: 45px;
+  }
+
+  /*navbar*/
+  .zonanav1 {
+    display: block;
+  }
+
+  .zonanav2 {
+    display: block;
+  }
+
+  .navegacion {
+    margin: 10px 10px 10px 10px;
+  }
+
+  /*parrafo principal*/
+  .texto1 {
+    margin-left: 100px;
+    font-size: 30px;
+  }
+
+  /*carrusel*/
+  .carousel {
+    width: 80%;
+  }
+
+  /*imagenes*/
+  .article1 {
+    display: block;
+  }
+
+  .articlefem {
+    display: block;
+  }
+
+  /*solo imagenes*/
+  .deportesfoto2 {
+    margin: 20px 20px 20px 20px;
+  }
+
+  .deportesfoto3 {
+    margin: 20px 20px 20px 20px;
+  }
+
+  .divfotosfem {
+    display: none;
+  }
+
+  .fotofem2 {
+    margin: 20px 20px 20px 20px;
+  }
+
+  /*video*/
+  .video1 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .texto1 {
+    margin-left: 90px;
+    font-size: 15px;
+  }
+}
 /*fondo para futbol.html*/
 .elfondofut {
   background-image: url(https://b-static.besthdwallpaper.com/el-joven-talento-del-delantero-del-club-de-futbol-paris-saint-germain-kylian-mbappe-papel-pintado-2048x1536-93143_26.jpg) !important;

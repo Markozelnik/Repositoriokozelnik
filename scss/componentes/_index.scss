@@ -96,6 +96,8 @@
  }
  .carousel1{ margin: 70px 70px 70px 70px;
  } 
+
+
  /*fin de header*/
 
  /*Inicio de zona de imagenes = article*/
@@ -103,6 +105,7 @@
 
 .article1{
     display:flex ;
+    justify-content: space-around;
    
    
 }
@@ -319,3 +322,90 @@ margin-top: 40px
 }
 
 /*fin de index*/
+
+
+/*aplicando media*/
+
+@media screen and (max-width: 490px){
+    
+    /*logo*/
+
+    .logo1{ 
+        margin-left: 45px ;
+    }
+
+
+
+    /*navbar*/
+        .zonanav1{
+            display: block;
+
+        }
+
+        .zonanav2{
+            display: block;
+        }
+
+        .navegacion{
+            margin: 10px 10px 10px 10px;
+        }
+
+        /*parrafo principal*/
+
+        .texto1{
+            margin-left: 100px;
+            font-size: 30px;
+        }
+
+        /*carrusel*/
+
+        .carousel{
+            width: 80%;
+            
+            
+        }
+
+        /*imagenes*/
+        .article1{
+            display: block;
+        }
+
+        .articlefem{
+            display: block;
+        }
+
+        /*solo imagenes*/
+
+        .deportesfoto2{
+            margin: 20px 20px 20px 20px;
+        }
+
+        .deportesfoto3{
+            margin: 20px 20px 20px 20px;
+        }
+
+        .divfotosfem{
+            display: none;
+        }
+        
+
+        .fotofem2{
+            margin: 20px 20px 20px 20px;
+        }
+
+        /*video*/
+        .video1{
+            width: 70%;
+        }
+
+    
+}
+
+@media screen and (max-width: 414px ){
+    .texto1{
+        margin-left: 90px;
+        font-size: 15px;
+    }
+
+    
+}
