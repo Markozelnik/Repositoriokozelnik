@@ -325,9 +325,10 @@ nav ul li a {
 .pcompeticiones {
   display: flex;
   justify-content: center;
-  margin: 50px 30px 50px 30px;
+  margin: 50px 50px 50px 50px;
   color: rgb(231, 236, 241);
   font-size: 18px;
+  text-align: center;
 }
 
 .medio {
@@ -987,7 +988,7 @@ nav ul li a {
 .pfamosos {
   display: flex;
   justify-content: center;
-  margin: 70px 30px 10px 30px;
+  margin: 70px 50px 10px 50px;
   color: rgb(231, 236, 241);
   font-size: 18px;
   cursor: pointer;
