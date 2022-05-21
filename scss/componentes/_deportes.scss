@@ -211,3 +211,65 @@ transform: scale(1.1);
 opacity: 1;
 
 }
+
+/*@media para deportes*/
+
+@media screen and (max-width: 490px){
+   
+
+    .deport{
+        width: 70%;
+        margin: 10px 10px 10px 10px;
+    }
+    .deportesprin{ 
+        display: block;
+
+    }
+   
+    .deportes1{ display: block;
+        
+
+    }
+
+}
+
+@media screen and (max-width: 940px){
+
+    .deport{
+        
+        margin: 10px 10px 10px 100px;
+    }
+    .deportesprin{ 
+        display: block;
+
+    }
+   
+    .deportes1{ display: block;
+        
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 750px){
+
+    .deport{
+        
+        margin: 10px 50px 10px 50px;
+    }
+    .deportesprin{ 
+        display: block;
+
+    }
+   
+    .deportes1{ display: block;
+        
+
+    }
+
+    .futtdep{display: none;}
+    .titulosdeportes1{display: none;}
+
+}

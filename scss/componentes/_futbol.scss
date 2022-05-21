@@ -5,3 +5,44 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+/*@media a futbol y las distintas secciones de deportes*/
+
+@media screen and (max-width: 500px){
+    .elfondofut{
+    background-image: url(https://b-static.besthdwallpaper.com/el-joven-talento-del-delantero-del-club-de-futbol-paris-saint-germain-kylian-mbappe-papel-pintado-2048x1536-93143_26.jpg)!important;
+    background-repeat: repeat; }
+
+}
+
+
+@media screen and (max-width: 840px){
+
+    .imgmessi1{ width: 1%;
+
+    }
+
+    .imgmessi2{ width: 1%;
+    }
+    
+    .pmessi3{
+        font-size: 100px;
+    }
+
+    .pmessi1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        font-size: 100px ;
+
+    }
+
+    .pmessi2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+        font-size: 100px;
+    }
+}

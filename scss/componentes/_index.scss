@@ -331,7 +331,7 @@ margin-top: 40px
     /*logo*/
 
     .logo1{ 
-        margin-left: 45px ;
+        margin-left: 10px ;
     }
 
 
@@ -344,6 +344,7 @@ margin-top: 40px
 
         .zonanav2{
             display: block;
+            font-size: 20px;
         }
 
         .navegacion{
@@ -408,4 +409,18 @@ margin-top: 40px
     }
 
     
+}
+
+@media screen and  (max-width: 629px){
+
+    .zonanav2{
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .zonanav1{
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+
 }

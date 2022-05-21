@@ -5,3 +5,12 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+/*@media a basquet*/
+
+@media screen and (max-width: 700px){
+    .elfondobasq{
+        background-image: url(https://fondosmil.com/fondo/1738.jpg);
+        background-repeat:repeat;
+    }
+}
