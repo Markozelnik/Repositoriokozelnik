@@ -153,3 +153,52 @@
              border-radius: 15%;
     
 }
+
+/*@media messi carrusel*/
+
+@media screen and (max-width: 940px){
+    .imgmessi1{ display: none;
+
+    }
+
+    .imgmessi2{display: none;
+
+    }
+}
+
+@media screen and (max-width: 1332px){
+    .messioro4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1018px){
+    .messioro3{
+                display: none;
+    }
+}
+
+
+@media screen and (max-width: 705px){
+    .messioro2{
+        display: none;
+    }
+
+    .pmessi3 .pmessi2 .pmessi1{ display: inline;
+        font-size: 2px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .messih2{
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 252px){
+    .elfondomess{
+        background-repeat: repeat;
+    }
+    
+}

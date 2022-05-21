@@ -82,3 +82,49 @@
              border-radius: 15%;
 
 }
+
+/*@media para djokovic carrusel*/
+
+@media screen and (max-width: 1119px){
+
+    .sectidjokov{
+        display: block;
+    }
+
+    .imagenesdjokov{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .djokovfot1{ width: 50%;
+
+    }
+
+    .djokovfot3{ width: 50%;
+        
+    }
+
+    .pdivdjokov{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .djokovfot7{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1328px){
+    .djokovfot6{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 705px){
+    .djokovfot5{
+        display: none;
+    }
+}

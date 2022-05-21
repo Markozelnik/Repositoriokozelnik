@@ -44,3 +44,33 @@
           font-size: 18px;
 
 }
+
+/*@media imagen de verstappen carrusel */
+
+@media screen and (max-width: 820px){
+    .sectionverstappen{
+        display: block;
+    }
+
+    .divvertaimg{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .imagenver1{ width: 50%;
+              
+
+    }
+
+    .imagenver2{ width: 50%;
+        
+    }
+    
+    .divertap{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+}
