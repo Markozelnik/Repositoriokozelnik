@@ -2,7 +2,7 @@
 
 .elfondobasq{
     background-image: url(https://fondosmil.com/fondo/1738.jpg);
-    background-repeat: no-repeat;
+    
     background-attachment: fixed;
 }
 
@@ -13,4 +13,11 @@
         background-image: url(https://fondosmil.com/fondo/1738.jpg);
         background-repeat:repeat;
     }
+}
+
+@media screen and (max-width: 2000px){
+    .elfondobasq{
+        background-repeat: repeat;
+    }
+
 }

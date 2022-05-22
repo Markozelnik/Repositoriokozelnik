@@ -1,8 +1,14 @@
 /*aplicando el fondo para rugbyhtml*/
 
 .elfondorugb{ background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/YRQQJPVHWJBYJGVBLJVCTEVYI4.jpg);
-              background-repeat: no-repeat;
+              
               background-attachment: fixed
 
 }
 
+@media screen and (max-width: 1853px){
+    .elfondorugb{
+        background-repeat: repeat;
+    }
+
+}

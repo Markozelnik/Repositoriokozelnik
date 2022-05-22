@@ -394,7 +394,6 @@ nav ul li a {
 /*fondo para futbol.html*/
 .elfondofut {
   background-image: url(https://b-static.besthdwallpaper.com/el-joven-talento-del-delantero-del-club-de-futbol-paris-saint-germain-kylian-mbappe-papel-pintado-2048x1536-93143_26.jpg) !important;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -432,6 +431,11 @@ nav ul li a {
     align-items: center;
     margin-right: 60px;
     font-size: 100px;
+  }
+}
+@media screen and (max-width: 2225px) {
+  .elfondofut {
+    background-repeat: repeat;
   }
 }
 /*aplicando css a competiciones.html*/
@@ -885,7 +889,6 @@ nav ul li a {
 /*fondo para futbol.html*/
 .elfondofut {
   background-image: url(https://b-static.besthdwallpaper.com/el-joven-talento-del-delantero-del-club-de-futbol-paris-saint-germain-kylian-mbappe-papel-pintado-2048x1536-93143_26.jpg) !important;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -925,10 +928,14 @@ nav ul li a {
     font-size: 100px;
   }
 }
+@media screen and (max-width: 2225px) {
+  .elfondofut {
+    background-repeat: repeat;
+  }
+}
 /*fondo para basquet*/
 .elfondobasq {
   background-image: url(https://fondosmil.com/fondo/1738.jpg);
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -939,34 +946,56 @@ nav ul li a {
     background-repeat: repeat;
   }
 }
+@media screen and (max-width: 2000px) {
+  .elfondobasq {
+    background-repeat: repeat;
+  }
+}
 /*aplicando fondo de pantalla para tenishtml*/
 .elfondoten {
   background-image: url(https://images2.alphacoders.com/987/thumb-1920-987404.jpg);
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 2000px) {
+  .elfondoten {
+    background-repeat: repeat;
+  }
+}
 /*aplicando fondo a formula1*/
 .elfondofor {
   background-image: url(https://www.impulsonegocios.com/wp-content/uploads/2021/03/hamilton-auto-0303DEF.jpg);
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 1853px) {
+  .elfondofor {
+    background-repeat: repeat;
+  }
+}
 /*aplicando el fondo para rugbyhtml*/
 .elfondorugb {
   background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/YRQQJPVHWJBYJGVBLJVCTEVYI4.jpg);
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 1853px) {
+  .elfondorugb {
+    background-repeat: repeat;
+  }
+}
 /*aplicando fondo para voleyhtml*/
 .elfondovol {
   background-image: url(https://cdn.presstv.ir/Photo/2021/6/17/606f855b-d7b0-4fe8-a862-99b813ead605.png);
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 @media screen and (max-width: 250px) {
+  .elfondovol {
+    background-repeat: repeat;
+  }
+}
+@media screen and (max-width: 1853px) {
   .elfondovol {
     background-repeat: repeat;
   }

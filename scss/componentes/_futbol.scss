@@ -2,7 +2,7 @@
 
 .elfondofut{
     background-image: url(https://b-static.besthdwallpaper.com/el-joven-talento-del-delantero-del-club-de-futbol-paris-saint-germain-kylian-mbappe-papel-pintado-2048x1536-93143_26.jpg)!important;
-    background-repeat: no-repeat;
+    
     background-attachment: fixed;
 }
 
@@ -45,4 +45,11 @@
         margin-right: 60px;
         font-size: 100px;
     }
+}
+
+@media screen and (max-width: 2225px){
+    .elfondofut{
+        background-repeat: repeat;
+    }
+
 }
