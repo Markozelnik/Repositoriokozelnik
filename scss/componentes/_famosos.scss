@@ -15,18 +15,10 @@
           align-items: center;
           justify-content: center;
           text-align: center;
-          overflow: hidden;
+          
           cursor: pointer;
 
-         &:before, &:after{
-             content: "";
-             position: absolute;
-             width: calc(100% - 30px);
-             height: 4px;
-             background: #fff;
-             transition: all 0.3s;
-
-         }
+         
          &:before{left: -100% ;}
          &:after{left: 100%;}
         
@@ -85,4 +77,86 @@
 
 
 /*famoso @media*/
+@media screen and  (max-width: 1012px){
+    .famoso1{margin: 100px auto;
+        position: relative;
+        cursor: pointer;
+
+    }
+      
+      
+      
+      .famoso1text{ margin-top: 100px;
+           text-align: center;
+        color: #fff;
+        padding: 10px 20px;
+        position: absolute;
+        transition: all .3s;
+        transform: scale(1.5);
+        opacity: 0;
+        
+
+
+        &:hover .famoso1text {
+            transform: scale (1);
+                                opacity: 1;
+
+        }
+      }
+
+      .cr7titulo{ font-size: 40px;
+        font-family:'Times New Roman', Times, serif ;
+        text-decoration: underline;
+        border: black;
+                  
+      }      
+      .cr7parrafo{
+                  font-size: 20PX;
+                  border: rgb(8, 8, 8);
+                   }
+ }
+
+
+
+
+ @media screen and  (max-width: 544px){
+    .famoso1{margin: 100px auto;
+        position: relative;
+        width: 90%;
+        
+        cursor: pointer;
+
+    }
+      
+      
+      
+      .famoso1text{ text-align: center;
+        color: #fff;
+        padding: 10px 20px;
+        position: absolute;
+        transition: all .3s;
+        transform: scale(1);
+        
+        
+
+
+        &:hover .famoso1text {
+            transform: scale (1);
+                                opacity: 1;
+
+        }
+      }
+
+      .cr7titulo{ font-size: 10px;
+        font-family:'Times New Roman', Times, serif ;
+        text-decoration: underline;
+        border: black;
+                  
+      }      
+      .cr7parrafo{
+                  font-size: 5PX;
+                  border: rgb(8, 8, 8);
+                  border-spacing: 10px; }
+ }
+
 
